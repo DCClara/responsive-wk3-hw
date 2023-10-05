@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -104,15 +104,19 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 30px;
+    line-height: 1.5;
   }
   h2,
   h3 {
     font-size: 20px;
+    text-align: center;
   }
-  .email-link {
-    font-size: 20px;
+  .app-buttons {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
